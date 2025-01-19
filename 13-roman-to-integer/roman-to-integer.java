@@ -25,7 +25,7 @@ class Solution {
                 default : current = 0;
             }
 
-            if(i < length -1){
+            if(i < length - 1){
                 switch(s.charAt(i + 1)){
                 case 'M' : next = 1000;
                     break;
