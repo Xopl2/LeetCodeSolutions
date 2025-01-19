@@ -21,8 +21,6 @@ class Solution {
             reversed = reversed * 10 + digit;
         }
 
-        
-
         if (isNegative) {
             return -reversed;
         } else {
